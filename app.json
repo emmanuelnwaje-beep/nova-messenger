@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "NOVA",
+    "slug": "nova-messenger",
+    "scheme": "nova",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.nova"
+    },
+    "android": {
+      "package": "com.yourcompany.nova",
+      "adaptiveIcon": {
+        "backgroundColor": "#080D18"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
