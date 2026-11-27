@@ -50,3 +50,16 @@ Acode can edit the source files, but it does not compile native iOS/Android apps
 ## Before public release
 
 Choose a domain and Matrix server name before creating the production homeserver. Matrix server names are durable identifiers and are difficult to change later.
+
+
+## Deploy to GitHub Pages
+
+This project includes a GitHub Actions workflow at `.github/workflows/deploy-pages.yml`.
+
+1. Push the project to the repository's `main` branch.
+2. Open **Settings → Pages** on GitHub.
+3. Set **Build and deployment → Source** to **GitHub Actions**.
+4. Open **Actions** and wait for **Deploy NOVA web app to GitHub Pages** to finish.
+5. Visit `https://YOUR-USERNAME.github.io/nova-messenger/`.
+
+The Expo web export is configured with `/nova-messenger` as its base path.

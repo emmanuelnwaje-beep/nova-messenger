@@ -23,6 +23,9 @@
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "experiments": {
+      "baseUrl": "/nova-messenger"
+    }
   }
 }
